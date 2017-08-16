@@ -16,7 +16,7 @@ class GildedRose {
                         items[i].quality = items[i].quality - 1;
     
                         // deprecate price twice
-                        if(items[i].name.contains("Conjured"){
+                        if(items[i].name.contains("Conjured")){
                             items[i].quality = items[i].quality - 1;
                         }
                     }
