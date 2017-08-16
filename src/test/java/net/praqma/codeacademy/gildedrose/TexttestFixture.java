@@ -28,7 +28,7 @@ public class TexttestFixture {
             System.out.println("name, sellIn, quality");
             for (Item item : items) {
                 System.out.println(item);
-                assertEquals("foo", (string) item.name);
+                assertEquals("foo", (String) item.name);
             }
             System.out.println();
             app.updateQuality();
