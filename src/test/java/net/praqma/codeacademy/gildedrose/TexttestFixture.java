@@ -21,6 +21,7 @@ public class TexttestFixture {
         GildedRose app = new GildedRose(items);
 
         assertEquals("foo", items[0].name);
+        
         int days = 2;
         if (args.length > 0) {
             days = Integer.parseInt(args[0]) + 1;
