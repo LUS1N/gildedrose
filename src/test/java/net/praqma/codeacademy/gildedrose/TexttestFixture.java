@@ -1,5 +1,7 @@
 package net.praqma.codeacademy.gildedrose;
+import static org.junit.Assert.*;
 
+import org.junit.Test;
 public class TexttestFixture {
     public static void main(String[] args) {
         System.out.println("OMGHAI!");
