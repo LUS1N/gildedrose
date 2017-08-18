@@ -6,7 +6,7 @@ node {
 
     }
     stage ('Build'){
-        mvn clean
+        mvn clean package
     }
     stage ('Results'){
         echo 'Hello World'
