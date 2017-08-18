@@ -1,6 +1,7 @@
 node {
     stage ('Preparation'){
-        echo 'Hello World'
+        echo "Clonning the repo."
+        checkout scm
     }
     stage ('Build'){
         echo 'Hello World'
