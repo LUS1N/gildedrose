@@ -7,7 +7,7 @@ node {
     }
     stage ('Build'){
         // mvn clean package
-        sh 'docker run -i --rm --name my-maven-project -v "$PWD":/usr/src/mymaven -w /usr/src/mymaven maven:3-jdk-8 mvn install' 
+        sh 'docker run -i --rm -v "$PWD":/usr/src/mymaven -w /usr/src/mymaven maven:3-jdk-8 mvn install' 
     }
     stage ('Results'){
         echo 'Hello World'
